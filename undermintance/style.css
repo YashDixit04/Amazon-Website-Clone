@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+
+}
+
+.logo {
+    background-image: url("image/mainAmazon.png");
+    background-size: cover;
+    height: 40px;
+    width: 100%;
+}
+
+.border {
+    border: 2px solid transparent !important;
+    padding: 3px;
+
+}
+
+.border:hover {
+    border: 2px solid white !important;
+
+}
+.nav-signin a{
+    text-decoration: none;
+    color: white;
+}
+
+/* box - 2  */
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-sec {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+}
+
+/* box- 3 */
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 777px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 45px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+
+.search-icon {
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    background-color: #febd68;
+    color: #0f1111cd;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+    border-radius: 4px;
+}
+
+
+/* nav-lang  */
+
+.nav-lang {
+    display: flex;
+}
+
+.nav-lang img {
+    height: 40px;
+}
+.lag-select{
+    position: relative;
+
+}
+.nav-lang select {
+    display: none;
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    margin-top: 30%;
+
+}
+
+.nav-lang option {
+    color: #0F1111;
+}
+
+
+
+/* The container must be positioned relative: */
+.custom-select {
+    position: relative;
+    font-family: Arial;
+  }
+  
+  .custom-select select {
+    display: none; /*hide original SELECT element: */
+  }
+  
+  .select-selected {
+    background-color: transparent;
+  }
+  
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  
+  /* style the items (options), including the selected item: */
+  .select-items div,.select-selected {
+    color: white;
+    cursor: pointer;
+    margin-top: 20%;
+  }
+  
+  /* Style items (options): */
+ 
+
+  .select-items {
+    position: absolute;
+    background-color: white;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+/* box- 4 */
+
+
+span {
+    font-size: 0.7rem;
+
+}
+
+.nav-sec {
+    font-size: 0.85rem !;
+    font-weight: 700;
+}
+
+/* box - 5 */
+.nav-cart i {
+    font-size: 40px !important;
+}
+.nav-card a{
+    text-decoration: none;
+    color: white;
+}
+.nav-cart {
+    font-size: 0.84rem !important;
+    font-weight: 700 !important;
+}
+
+/* Panel  */
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #f3f3f3;
+}
+
+.panel-option p {
+    display: inline;
+    margin-left: 14px;
+}
+.panel-option a{
+    text-decoration: none;
+    color: white;
+}
+.panel-option {
+    width: 70%;
+    font-size: 0.84rem;
+}
+
+.panel-deals {
+    font-size: 1rem;
+    font-weight: 700;
+}
+.panel-deals a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* <!-- Maintenance  -->  */
+
+.maintenance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.main-sec img{
+    height: 4.4rem;
+    padding-left: 4.4rem;
+}
+
+.under img{
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    padding-left: 4.7rem;
+}
+.under p{
+    font-weight: 600;
+    user-select: none;
+    margin-top: 2rem;
+    font-size: large;
+    color: rgba(242, 33, 33, 0.882);
+
+}
+.btn-back{
+    margin-top: 1rem;
+}
+.btn-back button{
+    width: 18rem;
+    background-color: orange;
+    color: #0F1111;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 0.4rem;
+}

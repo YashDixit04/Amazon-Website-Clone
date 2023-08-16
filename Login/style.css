@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.logo {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.border {
+    border: 1px solid rgba(60, 60, 60, 0.341);
+    border-radius: 9px;
+    padding: 1rem;
+    width: 20rem;
+
+}
+
+.logo img {
+    height: 4rem;
+}
+
+.text {
+    padding: 10px;
+}
+
+.text h1 {
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0;
+
+}
+
+.info p {
+    height: 10px;
+    margin-top: 1.6rem;
+    font-size: 14px;
+
+}
+
+.info input {
+    width: 22em;
+    height: 1.4rem;
+    border: 1px solid rgba(90, 89, 89, 0.341);
+    border-radius: 3px;
+
+}
+.info input:hover{
+    box-shadow: 1px 1px 1px 1px rgba(13, 200, 233, 0.5), 1px 1px 1px rgba(28, 219, 249, 0.695) inset;
+  
+}
+
+.text button {
+    margin-top: 1rem;
+    width: 22.4em;
+    background: #ffd51c;
+    border: none;
+    height: 1.9rem;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.text button:hover{
+    background: linear-gradient( #a88734 #9c7e31 #846a29);
+  
+}
+
+.condition {
+    width: 18em;
+}
+
+.condition p {
+    font-size: 12px;
+}
+
+.condition a {
+    text-decoration: none;
+    color: #0066c0;
+
+}
+
+.need-help {
+    height: auto;
+}
+
+.condition a:hover {
+    text-decoration: none;
+    color: #ff9900;
+    border-bottom: #ff9900 2px solid;
+}
+
+
+
+li a {
+    text-decoration: none;
+    color: #2d2f31;
+}
+
+
+.span {
+    color: #0066c0;
+    cursor: pointer;
+    width: 6rem;
+    font-size: 14.6px;
+    display: block;
+}
+
+.span:hover {
+    border-bottom: #ff9900 2px solid;
+    color: #ff9900;
+}
+
+.span::after {
+    float: right;
+    right: 10%;
+    content: "+";
+}
+
+.slide {
+    height: 0px;
+    overflow: hidden;
+    transition: height .4s ease;
+}
+
+.slide a {
+    font-size: 14.2px;
+    text-decoration: none;
+    color: #0066c0;
+}
+
+.slide a:hover {
+    text-decoration: none;
+    color: #ff9900;
+    border-bottom: #ff9900 2px solid;
+}
+
+#touch {
+    position: absolute;
+    opacity: 0;
+    height: 0px;
+}
+
+#touch:checked+.slide {
+    height: 2.8rem;
+}
+
+
+
+.new {
+    text-align: center;
+    position: relative;
+    top: 2px;
+    padding-top: 1px;
+    line-height: 0;
+}
+
+.new h5 {
+    color: rgba(128, 128, 128, 0.868);
+    line-height: 1;
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+    font-size: 12.6px;
+    background-color: rgb(255, 255, 255);
+    padding: 0 8px 0 7px;
+}
+
+
+.new::after {
+    content: "";
+    width: 8%;
+    background: transparent;
+    height: 1px;
+    border-top: 2px solid rgba(128, 128, 128, 0.571);
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.account button {
+    width: 22rem;
+    height: 2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 2px solid;
+    border: 1px solid rgba(60, 60, 60, 0.341);
+    background-color: white;
+    box-shadow: 60px 50px 90px rgba(128, 128, 128, 0.571),
+        -90px -90px 90px #ffffff;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    padding-top: 14rem;
+    justify-content: center;
+
+}
+.copyright p{
+    font-size: 10px;
+    color: rgba(128, 128, 128, 0.644);
+}
